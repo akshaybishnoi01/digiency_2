@@ -365,6 +365,27 @@
     fill: var(--color-secondary-);
 }
 
+.svg_box_2 {
+    width: 40px;
+    right: -22px;
+    top: 29%;
+    transition: all 600ms linear !important;
+}
+
+.pos-absolute_2 {
+    position: absolute;
+    bottom: 6%;
+    right: -16%;
+}
+
+section:hover .svg_box_2 {
+    right: 0;
+}
+
+.pos-absolute_2:hover {
+    right: 1%;
+}
+
 @media (max-width:1200px) {
     .white_box {
         padding: 60px 15px;
